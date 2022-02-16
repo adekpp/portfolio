@@ -1,0 +1,46 @@
+.img-wrapper {
+    position: relative;
+    overflow: hidden;
+    min-width: 250px;
+    max-width: 400px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.img-wrapper > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-wrapper > .content {
+    position: absolute;
+    inset: 0;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.603);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wrapper > img,
+.img-wrapper > .content {
+    transition: 200ms ease-in-out;
+}
+
+.img-wrapper > .content {
+    opacity: 0;
+}
+
+.img-wrapper:hover > .content {
+    opacity: 1;
+}
+.img-wrapper:hover > img {
+    filter: blur(1px);
+    transform: scale(1.1);
+}
+

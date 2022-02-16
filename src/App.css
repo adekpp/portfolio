@@ -1,38 +1,101 @@
+
+.bg1 {
+  position: fixed;
+  width: 45px;
+  height: 36px;
+
+  top: 480px;
+  left: 256px;
+}
+
+.bg2 {
+  position: fixed;
+  width: 45px;
+  height:45px;
+  top: 800px;
+  left: 116px;
+
+    
+}
+
+.bg3 {
+  position: fixed;
+  transform: rotate(62deg);
+
+  top: 728px;
+  left: 415px;
+}
+
+
+.bg4 {
+  position: fixed;
+  width: 45px;
+  height:47px;
+  top: 330px;
+  right: 294px;
+}
+
+.bg5 {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  top: 284px;
+  left: 180px;
+}
+
+.bg6 {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+
+  top: 526px;
+  right: 135px;
+  
+}
+
+.bg7 {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  top: 554px;
+  right: 450px;
+  transform: rotate(82deg);
+}
+
+.bg8 {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  top: 840px;
+  right: 156px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56.971' height='53.677' viewBox='0 0 56.971 53.677' %3E%3Cpath id='Icon_awesome-laptop-code' data-name='Icon awesome-laptop-code' d='M17.932 18.4a1.125 1.125 0 0 0 1.591 0l.8-.8a1.125 1.125 0 0 0 0-1.591L17.807 13.5l2.511-2.512a1.125 1.125 0 0 0 0-1.591l-.8-.8a1.125 1.125 0 0 0-1.591 0l-4.1 4.1a1.125 1.125 0 0 0 0 1.591l4.1 4.1Zm6.751-.795.8.8a1.125 1.125 0 0 0 1.591 0l4.1-4.1a1.125 1.125 0 0 0 0-1.591l-4.1-4.1a1.125 1.125 0 0 0-1.591 0l-.8.8a1.125 1.125 0 0 0 0 1.591L27.193 13.5l-2.511 2.512a1.125 1.125 0 0 0 0 1.591ZM43.875 29.25H26.827a2.217 2.217 0 0 1-2.3 2.25H20.25a2.388 2.388 0 0 1-2.3-2.25H1.125A1.128 1.128 0 0 0 0 30.375V31.5A4.513 4.513 0 0 0 4.5 36h36A4.513 4.513 0 0 0 45 31.5V30.375A1.128 1.128 0 0 0 43.875 29.25ZM40.5 3.375A3.385 3.385 0 0 0 37.125 0H7.875A3.385 3.385 0 0 0 4.5 3.375V27h36ZM36 22.5H9V4.5H36Z' transform='translate(0 22.5) rotate(-30)' opacity='0.2' /%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8 {
+
+  opacity: 0.3;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+ 
+ position: relative;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+
+  
+}
+
+.dark {
+  background-color: rgb(56, 56, 56);
+  background-size: cover;
   color: white;
+  fill: white;
 }
 
-.App-link {
-  color: #61dafb;
+.light {
+  color: #333;
+  fill: #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
