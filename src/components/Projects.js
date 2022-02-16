@@ -44,7 +44,7 @@ export const Projects = () => {
             <img src={weather} alt="weather" />
             <div className="content text-gray-900 select-none">
             A simple app to check the current weather.<br/>
-             App is using OpenWeatherMap API. 
+             App is using OpenWeatherMap API. /Double tap to open.
             </div>
           </div>
           </MobileView>
@@ -76,7 +76,7 @@ export const Projects = () => {
 
             <img src={gallery} alt="photos" />
             <div className="content text-gray-900">
-            This app uses the Unsplash API. Styling is not too fancy, but app is using masonry grid layout which looks very nice.
+            This app uses the Unsplash API. Styling is not too fancy, but app is using masonry grid layout which looks very nice. /Double tap to open.
             </div>
           </div>
           </MobileView>
