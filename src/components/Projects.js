@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import weather from "../img/weather.jpg";
 import gallery from "../img/gallery.jpg";
+import recipes from "../img/recipes.jpg"
 import { useDoubleTap } from "use-double-tap";
 import { BrowserView, MobileView } from "react-device-detect";
 import { useContext } from "react";
@@ -92,6 +93,38 @@ export const Projects = () => {
             <img src={gallery} alt="photos" />
             <div className="content text-gray-900">
             This app uses the Unsplash API. Styling is not too fancy, but app is using masonry grid layout which looks very nice.
+            </div>
+          </div>
+          </a>
+          </BrowserView>
+        </Wrapper>
+        <Wrapper>
+        <MobileView>
+          <div {...app1}
+           className="img-wrapper flex flex-row         place-items-center justify-center text-white drop-shadow-md select-none">
+            <div 
+            className="absolute text-xl  bg-pink-500 bg-opacity-75 rounded-md p-2">
+              <p className="drop-shadow-sm">Gallery App</p>
+            </div>
+
+            <img src={recipes} alt="photos" />
+            <div className="content text-gray-900">
+            Create and save cooking recipes. App is using Firestore Database. /Double tap to open.
+            </div>
+          </div>
+          </MobileView>
+          <BrowserView>
+          <a 
+          href="https://gallery-api-unsplash-demo.herokuapp.com/" target="_blank"
+          rel="noopener noreferrer">
+          <div className="img-wrapper flex flex-row         place-items-center justify-center text-white drop-shadow-md select-none">
+            <div className="absolute text-xl  bg-pink-500 bg-opacity-75 rounded-md p-2">
+              <p className="drop-shadow-sm">Cooking recipes</p>
+            </div>
+
+            <img src={recipes} alt="photos" />
+            <div className="content text-gray-900">
+            Create and save cooking recipes. App is using Firestore Database.
             </div>
           </div>
           </a>
