@@ -31,6 +31,11 @@ export const Projects = () => {
     window.open("https://app-weather-now.herokuapp.com/");
   });
 
+  const app3 = useDoubleTap((event) => {
+    // Your action here
+    window.open("https://cooking-recipes-db254.web.app/");
+  });
+
   return (
     <div className="projects flex flex-grow flex-col  mx-auto text-gray-900 select-none ">
     <h1 className={`text-center md:text-2xl ${mode}`}>Projects:</h1>
@@ -100,7 +105,7 @@ export const Projects = () => {
         </Wrapper>
         <Wrapper>
         <MobileView>
-          <div {...app1}
+          <div {...app3}
            className="img-wrapper flex flex-row         place-items-center justify-center text-white drop-shadow-md select-none">
             <div 
             className="absolute text-xl  bg-pink-500 bg-opacity-75 rounded-md p-2">
@@ -115,7 +120,7 @@ export const Projects = () => {
           </MobileView>
           <BrowserView>
           <a 
-          href="https://gallery-api-unsplash-demo.herokuapp.com/" target="_blank"
+          href="https://cooking-recipes-db254.web.app/" target="_blank"
           rel="noopener noreferrer">
           <div className="img-wrapper flex flex-row         place-items-center justify-center text-white drop-shadow-md select-none">
             <div className="absolute text-xl  bg-pink-500 bg-opacity-75 rounded-md p-2">
