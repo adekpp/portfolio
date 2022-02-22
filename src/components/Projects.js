@@ -109,7 +109,7 @@ export const Projects = () => {
            className="img-wrapper flex flex-row         place-items-center justify-center text-white drop-shadow-md select-none">
             <div 
             className="absolute text-xl  bg-pink-500 bg-opacity-75 rounded-md p-2">
-              <p className="drop-shadow-sm">Gallery App</p>
+              <p className="drop-shadow-sm">Cooking recipes</p>
             </div>
 
             <img src={recipes} alt="photos" />
