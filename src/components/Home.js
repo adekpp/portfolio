@@ -19,7 +19,7 @@ export const Home = () => {
     
     <h1 className='text-4xl font-bold text-left'>Adrian Pietryga</h1>
     <h2 className='mt-5  text-xl text-left'>Junior Front End Developer</h2>
-    <p className='mt-7 text-left font-light'>I am Adrian and I am 32 years old. I started my adventure with frontend less than 2 years ago. I did a lot of training. I mastered HTML, CSS and JS which I still learn. I feel best working with React in which I created this portfolio.  I have an open mind and willing to learn new things. I love challenges!</p>
+    <p className='mt-7 text-left font-light'>I am Adrian and I am 32 years old. I started my adventure with frontend less than 2 years ago. I did a lot of training. I mastered HTML, CSS and JS which I still learn. I feel best working with React. I have an open mind and willing to learn new things. I love challenges!</p>
 
     <div className='p-4 z-10 mt-14 md:mt-28 place-self-center'>
     <img src={img} alt="computer"/>
