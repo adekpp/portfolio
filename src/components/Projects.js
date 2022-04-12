@@ -3,6 +3,7 @@ import "./Projects.css";
 import weather from "../img/weather.jpg";
 import gallery from "../img/gallery.jpg";
 import recipes from "../img/recipes.jpg"
+import fishing from "../img/fishing.jpg"
 import { useDoubleTap } from "use-double-tap";
 import { BrowserView, MobileView } from "react-device-detect";
 import { useContext } from "react";
@@ -27,19 +28,61 @@ export const Projects = () => {
     
   });
   const app2 = useDoubleTap((event) => {
-    // Your action here
+    event.preventDefault();
+    event.stopPropagation();
+   
     window.open("https://app-weather-now.herokuapp.com/");
   });
 
   const app3 = useDoubleTap((event) => {
-    // Your action here
+    event.preventDefault();
+    event.stopPropagation();
+  
     window.open("https://cooking-recipes-db254.web.app/");
+  });
+
+  const app4 = useDoubleTap((event) => {
+    event.preventDefault();
+    event.stopPropagation();
+  
+    window.open("https://gdzienaryby.netlify.app/");
   });
 
   return (
     <div className="projects flex flex-grow flex-col  mx-auto text-gray-900 select-none ">
     <h1 className={`text-center md:text-2xl ${mode}`}>Projects:</h1>
       <div className="flex flex-col mt-8 md:mt-32 md:flex-row flex-grow flex-nowrap justify-start md:justify-center place-items-start gap-6">
+
+      <Wrapper>
+      <MobileView>
+      <div {...app4} className="img-wrapper flex flex-row  place-items-center justify-center text-white drop-shadow-md select-none">
+        <div className="absolute text-xl bg-pink-500 bg-opacity-60 rounded-md p-2">
+          <p className="drop-shadow-sm">Gdzie na ryby?</p>
+        </div>
+
+        <img src={fishing} alt="weather" />
+        <div className="content text-gray-900 select-none">
+        Apllication for anglers to share good fishing spots.         
+        </div>
+      </div>
+      </MobileView>
+      <BrowserView>
+      <a 
+      href="https://gdzienaryby.netlify.app/" target="_blank"
+      rel="noopener noreferrer">
+      <div className="img-wrapper flex flex-row  place-items-center justify-center text-white drop-shadow-md select-none">
+        <div className="absolute text-xl bg-pink-500 bg-opacity-60 rounded-md p-2">
+          <p className="drop-shadow-sm">Gdzie na ryby?</p>
+        </div>
+        
+        <img src={fishing} alt="weather" />
+        <div className="content text-gray-900 select-none">
+        Apllication for anglers to share good fishing spots.
+        </div>
+      </div></a>
+      </BrowserView>
+    </Wrapper>
+
         <Wrapper>
           <MobileView>
           <div {...app2} className="img-wrapper flex flex-row  place-items-center justify-center text-white drop-shadow-md select-none">
