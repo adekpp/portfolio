@@ -29,7 +29,7 @@ export const Projects = () => {
   const weather = useDoubleTap((event) => {
     event.preventDefault();
     event.stopPropagation();
-    window.open("https://app-weather-now.herokuapp.com/");
+    window.open("https://weather-openapi.netlify.app/");
   });
 
   const recipes = useDoubleTap((event) => {
@@ -148,7 +148,7 @@ export const Projects = () => {
           </MobileView>
           <BrowserView>
             <a
-              href="https://app-weather-now.herokuapp.com/"
+              href="https://weather-openapi.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
