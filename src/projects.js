@@ -2,6 +2,7 @@ import PhishingOutlinedIcon from '@mui/icons-material/PhishingOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
 import MenuBookOutlinedIcon from '@mui/icons-material/MenuBookOutlined';
+import CollectionsIcon from '@mui/icons-material/Collections';
 
 export const projects = [
     {
@@ -44,7 +45,7 @@ export const projects = [
         title: "Unsplash API Gallery",
         content: "Simple gallery app that allows you to search for images in the Unsplash API.",
         bg: "from-blue-700 to-blue-400",
-        icon: <MenuBookOutlinedIcon fontSize="large"/>,
+        icon: <CollectionsIcon fontSize="large"/>,
         links: {
             github: "https://github.com/adekpp/gallery-api-unsplash-demo",
             demo: "https://gallery-api-unsplash-demo.herokuapp.com"
