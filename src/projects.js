@@ -1,8 +1,7 @@
 import PhishingOutlinedIcon from '@mui/icons-material/PhishingOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
-import MenuBookOutlinedIcon from '@mui/icons-material/MenuBookOutlined';
-import CollectionsIcon from '@mui/icons-material/Collections';
+import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 
 export const projects = [
     {
@@ -42,13 +41,13 @@ export const projects = [
     },
     {
         id: 4,
-        title: "Unsplash API Gallery",
-        content: "Simple gallery app that allows you to search for images in the Unsplash API.",
+        title: "Todo list MERN Stack",
+        content: "Todo list app that allows you to add, edit, delete and mark tasks. It uses MongoDB, Express, React, Redux and Node.js to store the data.",
         bg: "from-blue-700 to-blue-400",
-        icon: <CollectionsIcon fontSize="large"/>,
+        icon: <FormatListBulletedIcon fontSize="large"/>,
         links: {
-            github: "https://github.com/adekpp/gallery-api-unsplash-demo",
-            demo: "https://gallery-api-unsplash-demo.herokuapp.com"
+            github: "https://github.com/adekpp/todo-list-mern",
+            demo: "https://todo-list-adrian.netlify.app"
         }
     }
     
