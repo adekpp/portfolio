@@ -12,8 +12,8 @@ export const projects = [
         bg: "from-red-700 to-red-400",
         icon: <RamenDiningIcon fontSize="large"/>,
         links: {
-            github: "https://github.com/adekpp/weather-now",
-            demo: "https://weather-openapi.netlify.app"
+            github: "https://github.com/adekpp/recipes",
+            demo: "https://recipes-af309.web.app"
         }
     },  
   {
