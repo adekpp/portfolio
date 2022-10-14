@@ -7,13 +7,13 @@ import RamenDiningIcon from "@mui/icons-material/RamenDining";
 export const projects = [
     {
         id: 3,
-        title: "Food recipes VUE",
-        content: "Browse, add food recipes. Facebook/Google auth. Responsive design",
+        title: "Food recipes",
+        content: "Browse, add, like food recipes. Facebook/Google auth. Vue + supabase",
         bg: "from-red-700 to-red-400",
         icon: <RamenDiningIcon fontSize="large"/>,
         links: {
             github: "https://github.com/adekpp/recipes",
-            demo: "https://recipes-af309.web.app"
+            demo: "https://delicious-recipes777.netlify.app"
         }
     },  
   {
