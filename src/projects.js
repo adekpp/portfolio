@@ -1,21 +1,33 @@
 import PhishingOutlinedIcon from "@mui/icons-material/PhishingOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
-import WbSunnyOutlinedIcon from "@mui/icons-material/WbSunnyOutlined";
 import FormatListBulletedIcon from "@mui/icons-material/FormatListBulleted";
 import RamenDiningIcon from "@mui/icons-material/RamenDining";
 
 export const projects = [
-    {
-        id: 3,
-        title: "Food recipes",
-        content: "Browse, add, like food recipes. Facebook/Google auth. Vue + supabase",
-        bg: "from-red-700 to-red-400",
-        icon: <RamenDiningIcon fontSize="large"/>,
-        links: {
-            github: "https://github.com/adekpp/recipes",
-            demo: "https://delicious-recipes777.netlify.app"
-        }
-    },  
+  {
+    id: 4,
+    title: "Shopping list",
+    content:
+      "Nextjs app, google auth not working in embedded browsers (like messenger etc...). Mobile target (max-width 500px).",
+    bg: "from-blue-700 to-blue-400",
+    icon: <FormatListBulletedIcon fontSize="large" />,
+    links: {
+      github: "https://github.com/adekpp/shopping-list",
+      demo: "https://shopping-list-beta-murex.vercel.app",
+    },
+  },
+  {
+    id: 3,
+    title: "Food recipes",
+    content:
+      "Browse, add, like food recipes. Facebook/Google auth. Vue + supabase",
+    bg: "from-red-700 to-red-400",
+    icon: <RamenDiningIcon fontSize="large" />,
+    links: {
+      github: "https://github.com/adekpp/recipes",
+      demo: "https://delicious-recipes777.netlify.app",
+    },
+  },
   {
     id: 1,
     title: "Gdzie na ryby?",
@@ -38,19 +50,6 @@ export const projects = [
     links: {
       github: "https://github.com/adekpp/redux-toolkit-cart",
       demo: "https://shopping-cart-adrian-pietryga.netlify.app",
-    },
-  },
-
-  {
-    id: 4,
-    title: "Todo list MERN Stack",
-    content:
-      "Todo list app that allows you to add, edit, delete and mark tasks. It uses MongoDB, Express, React, Redux and Node.js to store the data.",
-    bg: "from-blue-700 to-blue-400",
-    icon: <FormatListBulletedIcon fontSize="large" />,
-    links: {
-      github: "https://github.com/adekpp/todo-list-mern",
-      demo: "https://todo-list-adrian.netlify.app",
     },
   },
 ];
