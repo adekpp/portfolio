@@ -9,6 +9,7 @@ export const projects = [
     title: "Hours tracker",
     content:
       "Hours Tracker is a robust and easy-to-use platform for tracking work hours. It offers users the ability to monitor their working hours and also the convenience of generating a PDF with a monthly hours summary.",
+    bg: "from-teal-700 to-teal-400",
     icon: <ScheduleOutlinedIcon fontSize="large" />,
     links: {
       github: "https://github.com/adekpp/hours-tracker",
