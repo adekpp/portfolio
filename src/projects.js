@@ -1,9 +1,20 @@
 import PhishingOutlinedIcon from "@mui/icons-material/PhishingOutlined";
-import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import ScheduleOutlinedIcon from "@mui/icons-material/ScheduleOutlined";
 import FormatListBulletedIcon from "@mui/icons-material/FormatListBulleted";
 import RamenDiningIcon from "@mui/icons-material/RamenDining";
 
 export const projects = [
+  {
+    id: 5,
+    title: "Hours tracker",
+    content:
+      "Hours Tracker is a robust and easy-to-use platform for tracking work hours. It offers users the ability to monitor their working hours and also the convenience of generating a PDF with a monthly hours summary.",
+    icon: <ScheduleOutlinedIcon fontSize="large" />,
+    links: {
+      github: "https://github.com/adekpp/hours-tracker",
+      demo: "https://hours-tracker-adekpp.vercel.app",
+    },
+  },
   {
     id: 4,
     title: "Shopping list",
@@ -38,18 +49,6 @@ export const projects = [
     links: {
       github: "https://github.com/adekpp/fishing-spots",
       demo: "https://gdzienaryby.netlify.app",
-    },
-  },
-  {
-    id: 2,
-    title: "Shopping Cart",
-    content:
-      "Add and remove items to your cart. It is built with React and uses Redux toolkit to manage the state. ",
-    bg: "from-orange-700 to-orange-200",
-    icon: <ShoppingCartOutlinedIcon fontSize="large" />,
-    links: {
-      github: "https://github.com/adekpp/redux-toolkit-cart",
-      demo: "https://shopping-cart-adrian-pietryga.netlify.app",
     },
   },
 ];
